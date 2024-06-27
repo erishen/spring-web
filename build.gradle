@@ -20,6 +20,18 @@ configurations {
 }
 
 repositories {
+	// aliyun maven
+  maven { url 'https://maven.aliyun.com/repository/public' }
+  // gradle-plugin
+  maven { url 'https://maven.aliyun.com/repository/gradle-plugin' }
+  // google()
+  maven { url 'https://maven.aliyun.com/repository/google' }
+  // jcenter()
+  maven { url 'https://maven.aliyun.com/repository/jcenter' }
+  // central()
+  maven { url 'https://maven.aliyun.com/repository/central' }
+	// 其他的maven仓库都放在这下边
+  maven { url 'https://jitpack.io' }
 	mavenCentral()
 }
 
